@@ -22,6 +22,22 @@
 
 # Wildcard, Special Operators
 
+1. Write a query to list the names (first and last) of those employees whose name starts with A.
+2. Write a query to list the names (first and last) of those employees whose last name ends with a.
+3. Write a query to list the names (first and last) of those employees whose name have second alphabet 's' in their names.
+4. Write a query to list the names (first and last) of those employees whose first name has only five characters.
+5. Write a query to list the names (first and last) of those employees whose first name has only five characters and starts with 'A'.
+6. Write a query to list the names (first and last) of those employees whose first name has only five characters and last name have third alphabet ends with 's'.
+7. Write a query to list the names (first and last) of the employees whose first name has only five characters and starting with 'S' and ending with 'n'.
+8. Write a query to list the names (first and last), hire date of those employees who joined in the month of which second character is 'u'.
+9. Write a query to list the names (first and last), salary of those employees whose salary is four digit number ending with Zero.
+10. Write a query to list the names (first and last), salary of those employees whose names having a character set 'll' together.
+11. Write a query to list first_name, last_name of employees with the pattern 'l_x' in their first name.
+
+
+
+
+
 # Datetime
 
 1. Write a Oracle SQL statement to get the first date of the current month.
