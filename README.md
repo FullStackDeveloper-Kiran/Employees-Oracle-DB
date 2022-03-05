@@ -28,3 +28,18 @@
 
 # Where Statement
 
+1. Write a Oracle SQL query to get the employee no, first name and last name for those employees who are earning commission.
+2. Write a Oracle SQL query to get the employee id, first_name and last_name for those employees do not earn any commission.
+3. Write a Oracle SQL query to get the the first_name and last_name of the employees who are working as 'ST_CLERK', 'SA_MAN' or 'IT_PROG' and drawing a salary more than 3000.
+4. Write a Oracle SQL query to get the first_name and last_name, job_id, department_id of the employees who are working in the department no 10 or 20 or 40 or employees working as 'ST_CLERK', 'SA_MAN' or 'IT_PROG'.
+5. Write a Oracle SQL query to get the first_name and last_name of the employees whose first_name are exactly five characters in length.
+6. Write a Oracle SQL query to get the the first_name and last_name of the employees who are not working as 'AC_MGR'.
+7. Write a Oracle SQL query to get the the first_name and last_name of the employees who are not working as 'ST_CLERK', 'SA_MAN' or 'IT_PROG'.
+8. Write a Oracle SQL query to get the maximum salary being paid to 'ST_CLERK'.
+9.  Write a Oracle SQL query to get the maximum salary being paid to department ID.
+10.  Write a Oracle SQL query to get the minimum salary being paid to SA_MAN.
+11.  Write a Oracle SQL query to get the total salary drawn by 'SA_MAN' working in the department number 80.
+12.  Write a Oracle SQL query to get the department number with more than 10 employees in each department.
+13.  Write a Oracle SQL query to get the designations (jobs) along with the total salary for those designations where total salary is more than 50000.
+14.  Write a Oracle SQL query to get the designations (jobs) along with the total number of employees in each designation. The output should contain only those jobs with more than three employees.
+
