@@ -22,7 +22,7 @@
 
 # Operators
 
-# Widcard, Special Operators
+# Wildcard, Special Operators
 
 # Datetime
 
