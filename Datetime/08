@@ -1,0 +1,25 @@
+Write a Oracle SQL statement to get the start date and end date of each month in current year from current month.
+
+
+Query:
+
+SELECT ADD_MONTHS (TRUNC (SYSDATE, 'MONTH'), i) start_date,
+TRUNC (LAST_DAY (ADD_MONTHS (SYSDATE, i))) end_date 
+FROM XMLTABLE ('for $i in 0 to xs:int(D) 
+               return $i'PASSING XMLELEMENT (d,FLOOR (MONTHS_BETWEEN (ADD_MONTHS (TRUNC (SYSDATE, 'YEAR') - 1, 12),  SYSDATE)))COLUMNS i INTEGER PATH '.');  
+
+
+Output:
+
+START_DATE           END_DATE
+-------------------- --------------------
+01-MAR-2022 00:00:00 31-MAR-2022 00:00:00
+01-APR-2022 00:00:00 30-APR-2022 00:00:00
+01-MAY-2022 00:00:00 31-MAY-2022 00:00:00
+01-JUN-2022 00:00:00 30-JUN-2022 00:00:00
+01-JUL-2022 00:00:00 31-JUL-2022 00:00:00
+01-AUG-2022 00:00:00 31-AUG-2022 00:00:00
+01-SEP-2022 00:00:00 30-SEP-2022 00:00:00
+01-OCT-2022 00:00:00 31-OCT-2022 00:00:00
+01-NOV-2022 00:00:00 30-NOV-2022 00:00:00
+01-DEC-2022 00:00:00 31-DEC-2022 00:00:00
