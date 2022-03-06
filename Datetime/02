@@ -1,0 +1,13 @@
+Write a Oracle SQL statement to get the last date of the current month.
+
+
+Query:
+
+SELECT TRUNC (LAST_DAY (SYSDATE)) "Last day of current month" FROM DUAL;
+
+
+Output: 
+
+Last day
+---------
+31-MAR-22
