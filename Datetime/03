@@ -1,0 +1,20 @@
+Write a Oracle SQL statement to get the current date in the specified session time zone.
+
+Query: 
+
+ALTER SESSION SET TIME_ZONE = '-8:0';
+ALTER SESSION SET NLS_DATE_FORMAT = 'DD-MON-YYYY HH24:MI:SS';
+SELECT SESSIONTIMEZONE, CURRENT_DATE FROM DUAL;
+ALTER SESSION SET TIME_ZONE = '-9:0';
+SELECT SESSIONTIMEZONE, CURRENT_DATE FROM DUAL;
+
+
+Output: 
+
+SESSIONTIMEZONE                                                             CURRENT_DATE
+--------------------------------------------------------------------------- --------------------
+-08:00                                                                      06-MAR-2022 04:34:22
+
+SESSIONTIMEZONE                                                             CURRENT_DATE
+--------------------------------------------------------------------------- --------------------
+-09:00                                                                      06-MAR-2022 03:34:22
