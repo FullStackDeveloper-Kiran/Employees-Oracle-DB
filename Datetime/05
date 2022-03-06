@@ -1,0 +1,19 @@
+Write a Oracle SQL statement to get the first and last day of the current year.
+
+Query:
+
+SELECT TRUNC (SYSDATE, 'YEAR') "First Day of the year" FROM DUAL;
+SELECT ADD_MONTHS (TRUNC (SYSDATE, 'YEAR'), 12) - 1 "Last Day of the Year" FROM DUAL;
+
+
+Output:
+
+
+First Day of the yea
+--------------------
+01-JAN-2022 00:00:00
+
+
+Last Day of the Year
+--------------------
+31-DEC-2022 00:00:00
