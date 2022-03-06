@@ -1,0 +1,13 @@
+Write a Oracle SQL statement to get the number of days in current month.
+
+
+Query:
+
+SELECT CAST (TO_CHAR (LAST_DAY (SYSDATE), 'dd') AS INT) number_of_days FROM DUAL; 
+
+
+Output:
+
+NUMBER_OF_DAYS
+--------------
+            31
