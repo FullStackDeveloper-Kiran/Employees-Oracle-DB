@@ -1,0 +1,15 @@
+Write a Oracle SQL statement to determine how many days are left in the current month.
+
+Query:
+
+SELECT SYSDATE,
+       LAST_DAY(SYSDATE) "Last",
+       LAST_DAY(SYSDATE) - SYSDATE "Days Left"
+  FROM DUAL;
+
+
+Output:
+
+SYSDATE              Last                  Days Left
+-------------------- -------------------- ----------
+06-MAR-2022 18:07:40 31-MAR-2022 18:07:40         25
