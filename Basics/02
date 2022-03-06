@@ -1,1 +1,119 @@
+Write a Oracle SQL command to display the employee name, job and annual salary for all employees
 
+
+Query:
+
+select first_name, last_name, job_id, 12*(salary+nvl(commission_pct,0)) as "Annual Salary" from employees;
+
+
+Output:
+
+FIRST_NAME           LAST_NAME                 JOB_ID     Annual Salary
+-------------------- ------------------------- ---------- -------------
+Donald               OConnell                  SH_CLERK           31200
+Douglas              Grant                     SH_CLERK           31200
+Jennifer             Whalen                    AD_ASST            52800
+Michael              Hartstein                 MK_MAN            156000
+Pat                  Fay                       MK_REP             72000
+Susan                Mavris                    HR_REP             78000
+Hermann              Baer                      PR_REP            120000
+Shelley              Higgins                   AC_MGR            144000
+William              Gietz                     AC_ACCOUNT         99600
+Steven               King                      AD_PRES           288000
+Neena                Kochhar                   AD_VP             204000
+Lex                  De Haan                   AD_VP             204000
+Alexander            Hunold                    IT_PROG           108000
+Bruce                Ernst                     IT_PROG            72000
+David                Austin                    IT_PROG            57600
+Valli                Pataballa                 IT_PROG            57600
+Diana                Lorentz                   IT_PROG            50400
+Nancy                Greenberg                 FI_MGR            144000
+Daniel               Faviet                    FI_ACCOUNT        108000
+John                 Chen                      FI_ACCOUNT         98400
+Ismael               Sciarra                   FI_ACCOUNT         92400
+Jose Manuel          Urman                     FI_ACCOUNT         93600
+Luis                 Popp                      FI_ACCOUNT         82800
+Den                  Raphaely                  PU_MAN            132000
+Alexander            Khoo                      PU_CLERK           37200
+Shelli               Baida                     PU_CLERK           34800
+Sigal                Tobias                    PU_CLERK           33600
+Guy                  Himuro                    PU_CLERK           31200
+Karen                Colmenares                PU_CLERK           30000
+Matthew              Weiss                     ST_MAN             96000
+Adam                 Fripp                     ST_MAN             98400
+Payam                Kaufling                  ST_MAN             94800
+Shanta               Vollman                   ST_MAN             78000
+Kevin                Mourgos                   ST_MAN             69600
+Julia                Nayer                     ST_CLERK           38400
+Irene                Mikkilineni               ST_CLERK           32400
+James                Landry                    ST_CLERK           28800
+Steven               Markle                    ST_CLERK           26400
+Laura                Bissot                    ST_CLERK           39600
+Mozhe                Atkinson                  ST_CLERK           33600
+James                Marlow                    ST_CLERK           30000
+TJ                   Olson                     ST_CLERK           25200
+Jason                Mallin                    ST_CLERK           39600
+Michael              Rogers                    ST_CLERK           34800
+Ki                   Gee                       ST_CLERK           28800
+Hazel                Philtanker                ST_CLERK           26400
+Renske               Ladwig                    ST_CLERK           43200
+Stephen              Stiles                    ST_CLERK           38400
+John                 Seo                       ST_CLERK           32400
+Joshua               Patel                     ST_CLERK           30000
+Trenna               Rajs                      ST_CLERK           42000
+Curtis               Davies                    ST_CLERK           37200
+Randall              Matos                     ST_CLERK           31200
+Peter                Vargas                    ST_CLERK           30000
+John                 Russell                   SA_MAN          168004.8
+Karen                Partners                  SA_MAN          162003.6
+Alberto              Errazuriz                 SA_MAN          144003.6
+Gerald               Cambrault                 SA_MAN          132003.6
+Eleni                Zlotkey                   SA_MAN          126002.4
+Peter                Tucker                    SA_REP          120003.6
+David                Bernstein                 SA_REP            114003
+Peter                Hall                      SA_REP            108003
+Christopher          Olsen                     SA_REP           96002.4
+Nanette              Cambrault                 SA_REP           90002.4
+Oliver               Tuvault                   SA_REP           84001.8
+Janette              King                      SA_REP          120004.2
+Patrick              Sully                     SA_REP          114004.2
+Allan                McEwen                    SA_REP          108004.2
+Lindsey              Smith                     SA_REP           96003.6
+Louise               Doran                     SA_REP           90003.6
+Sarath               Sewall                    SA_REP             84003
+Clara                Vishney                   SA_REP            126003
+Danielle             Greene                    SA_REP          114001.8
+Mattea               Marvins                   SA_REP           86401.2
+David                Lee                       SA_REP           81601.2
+Sundar               Ande                      SA_REP           76801.2
+Amit                 Banda                     SA_REP           74401.2
+Lisa                 Ozer                      SA_REP            138003
+Harrison             Bloom                     SA_REP          120002.4
+Tayler               Fox                       SA_REP          115202.4
+William              Smith                     SA_REP           88801.8
+Elizabeth            Bates                     SA_REP           87601.8
+Sundita              Kumar                     SA_REP           73201.2
+Ellen                Abel                      SA_REP          132003.6
+Alyssa               Hutton                    SA_REP            105603
+Jonathon             Taylor                    SA_REP          103202.4
+Jack                 Livingston                SA_REP          100802.4
+Kimberely            Grant                     SA_REP           84001.8
+Charles              Johnson                   SA_REP           74401.2
+Winston              Taylor                    SH_CLERK           38400
+Jean                 Fleaur                    SH_CLERK           37200
+Martha               Sullivan                  SH_CLERK           30000
+Girard               Geoni                     SH_CLERK           33600
+Nandita              Sarchand                  SH_CLERK           50400
+Alexis               Bull                      SH_CLERK           49200
+Julia                Dellinger                 SH_CLERK           40800
+Anthony              Cabrio                    SH_CLERK           36000
+Kelly                Chung                     SH_CLERK           45600
+Jennifer             Dilly                     SH_CLERK           43200
+Timothy              Gates                     SH_CLERK           34800
+Randall              Perkins                   SH_CLERK           30000
+Sarah                Bell                      SH_CLERK           48000
+Britney              Everett                   SH_CLERK           46800
+Samuel               McCain                    SH_CLERK           38400
+Vance                Jones                     SH_CLERK           33600
+Alana                Walsh                     SH_CLERK           37200
+Kevin                Feeney                    SH_CLERK           36000
