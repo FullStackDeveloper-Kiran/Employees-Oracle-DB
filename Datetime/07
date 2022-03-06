@@ -1,0 +1,11 @@
+Write a Oracle SQL statement to get number of days between two given dates.
+
+Query:
+
+SELECT ROUND ((MONTHS_BETWEEN ('01-May-2024', '01-Dec-2023') * 30), 0) num_of_days FROM DUAL;  
+
+Output:
+
+NUM_OF_DAYS
+-----------
+        150
