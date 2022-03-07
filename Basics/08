@@ -1,0 +1,118 @@
+Write a Oracle SQL query to display the name of the employees in order to alphabetically ascending order.
+
+
+Query:
+
+select first_name, last_name from employees order by first_name;
+
+Output;
+
+FIRST_NAME           LAST_NAME
+-------------------- -------------------------
+Adam                 Fripp
+Alana                Walsh
+Alberto              Errazuriz
+Alexander            Hunold
+Alexander            Khoo
+Alexis               Bull
+Allan                McEwen
+Alyssa               Hutton
+Amit                 Banda
+Anthony              Cabrio
+Britney              Everett
+Bruce                Ernst
+Charles              Johnson
+Christopher          Olsen
+Clara                Vishney
+Curtis               Davies
+Daniel               Faviet
+Danielle             Greene
+David                Lee
+David                Austin
+David                Bernstein
+Den                  Raphaely
+Diana                Lorentz
+Donald               OConnell
+Douglas              Grant
+Eleni                Zlotkey
+Elizabeth            Bates
+Ellen                Abel
+Gerald               Cambrault
+Girard               Geoni
+Guy                  Himuro
+Harrison             Bloom
+Hazel                Philtanker
+Hermann              Baer
+Irene                Mikkilineni
+Ismael               Sciarra
+Jack                 Livingston
+James                Marlow
+James                Landry
+Janette              King
+Jason                Mallin
+Jean                 Fleaur
+Jennifer             Whalen
+Jennifer             Dilly
+John                 Seo
+John                 Russell
+John                 Chen
+Jonathon             Taylor
+Jose Manuel          Urman
+Joshua               Patel
+Julia                Nayer
+Julia                Dellinger
+Karen                Partners
+Karen                Colmenares
+Kelly                Chung
+Kevin                Mourgos
+Kevin                Feeney
+Ki                   Gee
+Kimberely            Grant
+Laura                Bissot
+Lex                  De Haan
+Lindsey              Smith
+Lisa                 Ozer
+Louise               Doran
+Luis                 Popp
+Martha               Sullivan
+Mattea               Marvins
+Matthew              Weiss
+Michael              Hartstein
+Michael              Rogers
+Mozhe                Atkinson
+Nancy                Greenberg
+Nandita              Sarchand
+Nanette              Cambrault
+Neena                Kochhar
+Oliver               Tuvault
+Pat                  Fay
+Patrick              Sully
+Payam                Kaufling
+Peter                Tucker
+Peter                Hall
+Peter                Vargas
+Randall              Perkins
+Randall              Matos
+Renske               Ladwig
+Samuel               McCain
+Sarah                Bell
+Sarath               Sewall
+Shanta               Vollman
+Shelley              Higgins
+Shelli               Baida
+Sigal                Tobias
+Stephen              Stiles
+Steven               Markle
+Steven               King
+Sundar               Ande
+Sundita              Kumar
+Susan                Mavris
+TJ                   Olson
+Tayler               Fox
+Timothy              Gates
+Trenna               Rajs
+Valli                Pataballa
+Vance                Jones
+William              Smith
+William              Gietz
+Winston              Taylor
