@@ -1,0 +1,23 @@
+Write a Oracle SQL query to display the department number and total salary for each department.
+
+Query:
+
+select department_id, sum(salary) from employees group by department_id;
+
+
+Output:
+
+DEPARTMENT_ID SUM(SALARY)
+------------- -----------
+          100       51600
+           30       24900
+           20       19000
+           70       10000
+           90       58000
+          110       20300
+           50      156400
+           40        6500
+           80      304500
+           10        4400
+           60       28800
+            0        7000
