@@ -1,0 +1,23 @@
+Write a Oracle SQL query to display department id and total number of employees working in each department.
+
+Query:
+
+select department_id, count(department_id) from employees group by department_id;
+
+
+Output:
+
+DEPARTMENT_ID COUNT(DEPARTMENT_ID)
+------------- --------------------
+          100                    6
+           30                    6
+           20                    2
+           70                    1
+           90                    3
+          110                    2
+           50                   45
+           40                    1
+           80                   34
+           10                    1
+           60                    5
+            0                    1
