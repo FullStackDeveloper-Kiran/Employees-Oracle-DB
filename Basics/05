@@ -1,1 +1,12 @@
+Write a Oracle SQL query to get the maximum and minimum salary from the employees table.
 
+
+Query:
+
+select max(salary), min(salary) from employees;
+
+Output:
+
+MAX(SALARY) MIN(SALARY)
+----------- -----------
+      24000        2100
