@@ -1,0 +1,94 @@
+Write a query to list the employees name and salary who?s daily salary is more than ₹100.
+
+Query:
+
+SELECT first_name, last_name, salary 
+FROM employees 
+WHERE (salary/30) >100;
+
+
+Output:
+
+FIRST_NAME           LAST_NAME                     SALARY
+-------------------- ------------------------- ----------
+Jennifer             Whalen                          4400
+Michael              Hartstein                      13000
+Pat                  Fay                             6000
+Susan                Mavris                          6500
+Hermann              Baer                           10000
+Shelley              Higgins                        12000
+William              Gietz                           8300
+Steven               King                           24000
+Neena                Kochhar                        17000
+Lex                  De Haan                        17000
+Alexander            Hunold                          9000
+Bruce                Ernst                           6000
+David                Austin                          4800
+Valli                Pataballa                       4800
+Diana                Lorentz                         4200
+Nancy                Greenberg                      12000
+Daniel               Faviet                          9000
+John                 Chen                            8200
+Ismael               Sciarra                         7700
+Jose Manuel          Urman                           7800
+Luis                 Popp                            6900
+Den                  Raphaely                       11000
+Alexander            Khoo                            3100
+Matthew              Weiss                           8000
+Adam                 Fripp                           8200
+Payam                Kaufling                        7900
+Shanta               Vollman                         6500
+Kevin                Mourgos                         5800
+Julia                Nayer                           3200
+Laura                Bissot                          3300
+Jason                Mallin                          3300
+Renske               Ladwig                          3600
+Stephen              Stiles                          3200
+Trenna               Rajs                            3500
+Curtis               Davies                          3100
+John                 Russell                        14000
+Karen                Partners                       13500
+Alberto              Errazuriz                      12000
+Gerald               Cambrault                      11000
+Eleni                Zlotkey                        10500
+Peter                Tucker                         10000
+David                Bernstein                       9500
+Peter                Hall                            9000
+Christopher          Olsen                           8000
+Nanette              Cambrault                       7500
+Oliver               Tuvault                         7000
+Janette              King                           10000
+Patrick              Sully                           9500
+Allan                McEwen                          9000
+Lindsey              Smith                           8000
+Louise               Doran                           7500
+Sarath               Sewall                          7000
+Clara                Vishney                        10500
+Danielle             Greene                          9500
+Mattea               Marvins                         7200
+David                Lee                             6800
+Sundar               Ande                            6400
+Amit                 Banda                           6200
+Lisa                 Ozer                           11500
+Harrison             Bloom                          10000
+Tayler               Fox                             9600
+William              Smith                           7400
+Elizabeth            Bates                           7300
+Sundita              Kumar                           6100
+Ellen                Abel                           11000
+Alyssa               Hutton                          8800
+Jonathon             Taylor                          8600
+Jack                 Livingston                      8400
+Kimberely            Grant                           7000
+Charles              Johnson                         6200
+Winston              Taylor                          3200
+Jean                 Fleaur                          3100
+Nandita              Sarchand                        4200
+Alexis               Bull                            4100
+Julia                Dellinger                       3400
+Kelly                Chung                           3800
+Jennifer             Dilly                           3600
+Sarah                Bell                            4000
+Britney              Everett                         3900
+Samuel               McCain                          3200
+Alana                Walsh                           3100
