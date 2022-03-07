@@ -1,1 +1,14 @@
+Write a Oracle SQL query to get the total salary being paid to all employees.
 
+
+Query:
+
+select sum(salary) from employees;
+
+Output:
+
+SUM(SALARY)
+-----------
+     691400
+     
+     
