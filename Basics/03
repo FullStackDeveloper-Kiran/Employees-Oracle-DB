@@ -1,1 +1,11 @@
+Write a Oracle SQL query to get the total number of employees working in the company.
 
+Query :
+
+select count(*) from employees;
+
+Output:
+
+ COUNT(*)
+----------
+       107
