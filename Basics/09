@@ -1,0 +1,117 @@
+Write a Oracle SQL query to display employee id, name, department no, salary of the employees. The output first based on the employee name in ascending order, for unique name department will come in ascending order, and for same name and department the highest salary will come first.
+
+Query:
+
+select employee_id, first_name, department_id, salary from employees order by first_name asc, department_id asc, salary desc;
+
+Output:
+
+EMPLOYEE_ID FIRST_NAME           DEPARTMENT_ID     SALARY
+----------- -------------------- ------------- ----------
+        121 Adam                            50       8200
+        196 Alana                           50       3100
+        147 Alberto                         80      12000
+        115 Alexander                       30       3100
+        103 Alexander                       60       9000
+        185 Alexis                          50       4100
+        158 Allan                           80       9000
+        175 Alyssa                          80       8800
+        167 Amit                            80       6200
+        187 Anthony                         50       3000
+        193 Britney                         50       3900
+        104 Bruce                           60       6000
+        179 Charles                         80       6200
+        153 Christopher                     80       8000
+        162 Clara                           80      10500
+        142 Curtis                          50       3100
+        109 Daniel                         100       9000
+        163 Danielle                        80       9500
+        105 David                           60       4800
+        151 David                           80       9500
+        165 David                           80       6800
+        114 Den                             30      11000
+        107 Diana                           60       4200
+        198 Donald                          50       2600
+        199 Douglas                         50       2600
+        149 Eleni                           80      10500
+        172 Elizabeth                       80       7300
+        174 Ellen                           80      11000
+        148 Gerald                          80      11000
+        183 Girard                          50       2800
+        118 Guy                             30       2600
+        169 Harrison                        80      10000
+        136 Hazel                           50       2200
+        204 Hermann                         70      10000
+        126 Irene                           50       2700
+        111 Ismael                         100       7700
+        177 Jack                            80       8400
+        131 James                           50       2500
+        127 James                           50       2400
+        156 Janette                         80      10000
+        133 Jason                           50       3300
+        181 Jean                            50       3100
+        200 Jennifer                        10       4400
+        189 Jennifer                        50       3600
+        139 John                            50       2700
+        145 John                            80      14000
+        110 John                           100       8200
+        176 Jonathon                        80       8600
+        112 Jose Manuel                    100       7800
+        140 Joshua                          50       2500
+        186 Julia                           50       3400
+        125 Julia                           50       3200
+        119 Karen                           30       2500
+        146 Karen                           80      13500
+        188 Kelly                           50       3800
+        124 Kevin                           50       5800
+        197 Kevin                           50       3000
+        135 Ki                              50       2400
+        178 Kimberely                        0       7000
+        129 Laura                           50       3300
+        102 Lex                             90      17000
+        159 Lindsey                         80       8000
+        168 Lisa                            80      11500
+        160 Louise                          80       7500
+        113 Luis                           100       6900
+        182 Martha                          50       2500
+        164 Mattea                          80       7200
+        120 Matthew                         50       8000
+        201 Michael                         20      13000
+        134 Michael                         50       2900
+        130 Mozhe                           50       2800
+        108 Nancy                          100      12000
+        184 Nandita                         50       4200
+        154 Nanette                         80       7500
+        101 Neena                           90      17000
+        155 Oliver                          80       7000
+        202 Pat                             20       6000
+        157 Patrick                         80       9500
+        122 Payam                           50       7900
+        144 Peter                           50       2500
+        150 Peter                           80      10000
+        152 Peter                           80       9000
+        143 Randall                         50       2600
+        191 Randall                         50       2500
+        137 Renske                          50       3600
+        194 Samuel                          50       3200
+        192 Sarah                           50       4000
+        161 Sarath                          80       7000
+        123 Shanta                          50       6500
+        205 Shelley                        110      12000
+        116 Shelli                          30       2900
+        117 Sigal                           30       2800
+        138 Stephen                         50       3200
+        128 Steven                          50       2200
+        100 Steven                          90      24000
+        166 Sundar                          80       6400
+        173 Sundita                         80       6100
+        203 Susan                           40       6500
+        132 TJ                              50       2100
+        170 Tayler                          80       9600
+        190 Timothy                         50       2900
+        141 Trenna                          50       3500
+        106 Valli                           60       4800
+        195 Vance                           50       2800
+        171 William                         80       7400
+        206 William                        110       8300
+        180 Winston                         50       3200
