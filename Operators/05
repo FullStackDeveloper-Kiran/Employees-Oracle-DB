@@ -1,0 +1,13 @@
+Write a query to list the name of all the employees who are working as account manager and drawing a salary more than ₹5000.
+
+Query:
+
+SELECT  first_name, salary 
+FROM  employees 
+WHERE job_id='AC_MGR' and salary>5000;
+
+Output:
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Shelley                   12000
