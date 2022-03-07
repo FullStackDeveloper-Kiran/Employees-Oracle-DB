@@ -1,0 +1,18 @@
+Write a query to list the name of all the employees who are working as accountant in finance section and drawing a salary is greater than equal to ₹5000 and less than eqWrite a query to list the employees who are joined in the year between '01-Jan-2004' and '31-Dec-2008'.ual to # Employees-Oracle-DB
+
+Query:
+
+SELECT  first_name, salary 
+FROM  employees 
+WHERE job_id='FI_ACCOUNT' and (salary>=5000 and salary<=20000);
+
+
+Output:
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Daniel                     9000
+John                       8200
+Ismael                     7700
+Jose Manuel                7800
+Luis                       6900
