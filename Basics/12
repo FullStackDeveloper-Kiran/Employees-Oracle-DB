@@ -1,0 +1,30 @@
+Write a Oracle SQL query to display the designation (job id) and total number of employees working in each designation.
+
+Query:
+
+select job_id, count(job_id) from employees group by job_id;
+
+
+Output:
+
+JOB_ID     COUNT(JOB_ID)
+---------- -------------
+AC_MGR                 1
+AC_ACCOUNT             1
+IT_PROG                5
+ST_MAN                 5
+AD_ASST                1
+PU_MAN                 1
+SH_CLERK              20
+AD_VP                  2
+FI_ACCOUNT             5
+MK_MAN                 1
+PR_REP                 1
+FI_MGR                 1
+PU_CLERK               5
+SA_MAN                 5
+MK_REP                 1
+AD_PRES                1
+SA_REP                30
+HR_REP                 1
+ST_CLERK              20
