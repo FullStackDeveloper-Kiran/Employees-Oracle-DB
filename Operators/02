@@ -1,0 +1,120 @@
+Write a query to list the employees name and total salary of a year and yearly salary is more than ₹10000.
+
+Query:
+
+SELECT first_name, last_name, salary*12 "Yearly Salary" 
+FROM employees 
+WHERE (salary*12) >10000;
+
+
+Output:
+
+FIRST_NAME           LAST_NAME                 Yearly Salary
+-------------------- ------------------------- -------------
+Donald               OConnell                          31200
+Douglas              Grant                             31200
+Jennifer             Whalen                            52800
+Michael              Hartstein                        156000
+Pat                  Fay                               72000
+Susan                Mavris                            78000
+Hermann              Baer                             120000
+Shelley              Higgins                          144000
+William              Gietz                             99600
+Steven               King                             288000
+Neena                Kochhar                          204000
+Lex                  De Haan                          204000
+Alexander            Hunold                           108000
+Bruce                Ernst                             72000
+David                Austin                            57600
+Valli                Pataballa                         57600
+Diana                Lorentz                           50400
+Nancy                Greenberg                        144000
+Daniel               Faviet                           108000
+John                 Chen                              98400
+Ismael               Sciarra                           92400
+Jose Manuel          Urman                             93600
+Luis                 Popp                              82800
+Den                  Raphaely                         132000
+Alexander            Khoo                              37200
+Shelli               Baida                             34800
+Sigal                Tobias                            33600
+Guy                  Himuro                            31200
+Karen                Colmenares                        30000
+Matthew              Weiss                             96000
+Adam                 Fripp                             98400
+Payam                Kaufling                          94800
+Shanta               Vollman                           78000
+Kevin                Mourgos                           69600
+Julia                Nayer                             38400
+Irene                Mikkilineni                       32400
+James                Landry                            28800
+Steven               Markle                            26400
+Laura                Bissot                            39600
+Mozhe                Atkinson                          33600
+James                Marlow                            30000
+TJ                   Olson                             25200
+Jason                Mallin                            39600
+Michael              Rogers                            34800
+Ki                   Gee                               28800
+Hazel                Philtanker                        26400
+Renske               Ladwig                            43200
+Stephen              Stiles                            38400
+John                 Seo                               32400
+Joshua               Patel                             30000
+Trenna               Rajs                              42000
+Curtis               Davies                            37200
+Randall              Matos                             31200
+Peter                Vargas                            30000
+John                 Russell                          168000
+Karen                Partners                         162000
+Alberto              Errazuriz                        144000
+Gerald               Cambrault                        132000
+Eleni                Zlotkey                          126000
+Peter                Tucker                           120000
+David                Bernstein                        114000
+Peter                Hall                             108000
+Christopher          Olsen                             96000
+Nanette              Cambrault                         90000
+Oliver               Tuvault                           84000
+Janette              King                             120000
+Patrick              Sully                            114000
+Allan                McEwen                           108000
+Lindsey              Smith                             96000
+Louise               Doran                             90000
+Sarath               Sewall                            84000
+Clara                Vishney                          126000
+Danielle             Greene                           114000
+Mattea               Marvins                           86400
+David                Lee                               81600
+Sundar               Ande                              76800
+Amit                 Banda                             74400
+Lisa                 Ozer                             138000
+Harrison             Bloom                            120000
+Tayler               Fox                              115200
+William              Smith                             88800
+Elizabeth            Bates                             87600
+Sundita              Kumar                             73200
+Ellen                Abel                             132000
+Alyssa               Hutton                           105600
+Jonathon             Taylor                           103200
+Jack                 Livingston                       100800
+Kimberely            Grant                             84000
+Charles              Johnson                           74400
+Winston              Taylor                            38400
+Jean                 Fleaur                            37200
+Martha               Sullivan                          30000
+Girard               Geoni                             33600
+Nandita              Sarchand                          50400
+Alexis               Bull                              49200
+Julia                Dellinger                         40800
+Anthony              Cabrio                            36000
+Kelly                Chung                             45600
+Jennifer             Dilly                             43200
+Timothy              Gates                             34800
+Randall              Perkins                           30000
+Sarah                Bell                              48000
+Britney              Everett                           46800
+Samuel               McCain                            38400
+Vance                Jones                             33600
+Alana                Walsh                             37200
+Kevin                Feeney                            36000
