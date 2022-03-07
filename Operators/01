@@ -1,1 +1,19 @@
+Write a query to list the name of all the employees who are working in department number 20.
+
+
+Query:
+
+
+SELECT first_name, last_name, department_id 
+FROM employees 
+WHERE department_id =20;
+Output:
+
+
+Output:
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID
+-------------------- ------------------------- -------------
+Michael              Hartstein                            20
+Pat                  Fay                                  20
 
