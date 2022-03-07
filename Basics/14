@@ -1,0 +1,22 @@
+Write a Oracle SQL query to display the department number and maximum salary for each department.
+
+Query:
+
+select department_id, max(salary) from employees group by department_id;
+
+Output:
+
+DEPARTMENT_ID MAX(SALARY)
+------------- -----------
+          100       12000
+           30       11000
+           20       13000
+           70       10000
+           90       24000
+          110       12000
+           50        8200
+           40        6500
+           80       14000
+           10        4400
+           60        9000
+            0        7000
