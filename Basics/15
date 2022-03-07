@@ -1,0 +1,31 @@
+Write a Oracle SQL query to display the designations (job id) and total salary allotted for each designation from the company.
+
+
+Query:
+
+select job_id, sum(salary) from employees group by job_id;
+
+Output:
+
+
+JOB_ID     SUM(SALARY)
+---------- -----------
+AC_MGR           12000
+AC_ACCOUNT        8300
+IT_PROG          28800
+ST_MAN           36400
+AD_ASST           4400
+PU_MAN           11000
+SH_CLERK         64300
+AD_VP            34000
+FI_ACCOUNT       39600
+MK_MAN           13000
+PR_REP           10000
+FI_MGR           12000
+PU_CLERK         13900
+SA_MAN           61000
+MK_REP            6000
+AD_PRES          24000
+SA_REP          250500
+HR_REP            6500
+ST_CLERK         55700
