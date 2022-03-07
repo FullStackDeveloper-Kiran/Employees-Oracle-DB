@@ -1,0 +1,18 @@
+Write a query to list the names of all the employees who are working as accountant in finance section and drawing a salary less than ₹20000.
+
+Query:
+
+SELECT  first_name, salary 
+FROM  employees 
+WHERE job_id='FI_ACCOUNT' and salary < 20000;
+
+
+Output:
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Daniel                     9000
+John                       8200
+Ismael                     7700
+Jose Manuel                7800
+Luis                       6900
